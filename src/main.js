@@ -95,9 +95,9 @@ function isIntercept(url) {
 
 function getServerConfig() {
     return new Promise((resolve) => {
-        for (let key in cfg.url) {
-            cfg.url[key] = cfg.contextPath + cfg.url[key];
-        }
+        // for (let key in cfg.url) {
+        //     cfg.url[key] = cfg.contextPath + cfg.url[key];
+        // }
         // 将全局配置挂到vue的原型链上，使用的时候直接this.GLOBAL
         Vue.prototype.GLOBAL = cfg.url;
 

@@ -24,7 +24,7 @@ const state = {
         nickname: '123456',
         phoneNo: '',
         signature: '',
-        profilePhoto: '',
+        profilePhoto: 'src/assets/img/photo.jpg',
         eMail: '',
         sex: '',
         birthday: '',

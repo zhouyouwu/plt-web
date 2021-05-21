@@ -4,6 +4,8 @@ import Home from '../view/common/home'
 import Login from '../view/common/login'
 import Theme from '../view/common/theme'
 import Main from '../view/main'
+import UserManagement from '../view/common/UserManagement';
+import DisplayQues from '../view/question/watch';
 
 Vue.use(VueRouter)
 
@@ -24,6 +26,8 @@ const routes = [
         children: [
             {path: '/home', component: Home, name: 'home', meta: {title: '首页'}},
             {path: '/theme', component: Theme, name: 'theme', meta: {title: '主题'}},
+            {path: '/userManagement', component: UserManagement, name: 'userManagement', meta: {title: '账号管理'}},
+            {path: '/displayQues', component: DisplayQues, name: 'displayQues', meta: {title: '查看题目'}},
         ]
     }]
 
