@@ -13,6 +13,11 @@ import {showLoading, hideLoading} from './assets/common/loading';// eslint-disab
 import 'core-js';
 // 读取js配置文件，然后将url拼接在接口地址上
 import cfg from './config/config'
+import VueQuillEditor from 'vue-quill-editor'
+import 'quill/dist/quill.core.css'
+import 'quill/dist/quill.snow.css'
+import 'quill/dist/quill.bubble.css'
+Vue.use(VueQuillEditor);
 
 Vue.config.productionTip = false;
 Vue.prototype.$echarts = echarts;

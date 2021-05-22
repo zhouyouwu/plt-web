@@ -5,7 +5,9 @@ import Login from '../view/common/login'
 import Theme from '../view/common/theme'
 import Main from '../view/main'
 import UserManagement from '../view/common/UserManagement';
-import DisplayQues from '../view/question/watch';
+import DisplayKnowledge from '../view/knowledge/k-watch';
+import AddKnowledge from '../view/knowledge/add';
+import cWatch from '../view/chapter/c-watch'
 
 Vue.use(VueRouter)
 
@@ -27,7 +29,9 @@ const routes = [
             {path: '/home', component: Home, name: 'home', meta: {title: '首页'}},
             {path: '/theme', component: Theme, name: 'theme', meta: {title: '主题'}},
             {path: '/userManagement', component: UserManagement, name: 'userManagement', meta: {title: '账号管理'}},
-            {path: '/displayQues', component: DisplayQues, name: 'displayQues', meta: {title: '查看题目'}},
+            {path: '/displayKnowledge', component: DisplayKnowledge, name: 'displayKnowledge', meta: {title: '查看知识点'}},
+            {path: '/addKnowledge', component: AddKnowledge, name: 'addKnowledge', meta: {title: '添加知识点'}},
+            {path: '/cWatch', component: cWatch, name: 'cWatch', meta: {title: '管理章节'}},
         ]
     }]
 

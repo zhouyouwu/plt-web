@@ -52,7 +52,7 @@
   }
   .login-main {
     position: absolute;
-    padding: 80px 60px 1px 20px;
+    padding: 50px 60px 1px 40px;
     width: 470px;
   }
   .login-title {
@@ -67,5 +67,8 @@
   }
   .login-btn-submit {
     width: 100%;
+  }
+  .el-form-item {
+    margin-bottom: 10px !important;
   }
 }

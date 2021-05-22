@@ -14,6 +14,10 @@
           <i class="el-icon-s-custom"></i>
           <span slot="title">账号管理</span>
         </el-menu-item>
+        <el-menu-item index="cWatch" @click="$router.push({ name: 'cWatch' })">
+          <i class="el-icon-connection"></i>
+          <span slot="title">章节管理</span>
+        </el-menu-item>
         <el-submenu index="quesManagement">
           <template slot="title">
             <i class="el-icon-s-order"></i>

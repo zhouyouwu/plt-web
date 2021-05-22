@@ -16,6 +16,8 @@
     "sass-loader": "6.0.6",
     "utils": "^0.3.1",
     "vue": "^2.6.11",
+    "vue-cli": "^2.9.6",
+    "vue-quill-editor": "^3.0.6",
     "xlsx": "^0.17.0"
   },
   "devDependencies": {

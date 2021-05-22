@@ -29,7 +29,7 @@
                             </el-row>
                         </el-form-item>
                         <el-form-item>
-                            <el-button class="login-btn-submit" type="primary" @click="dataFormSubmit()">登录</el-button>
+                            <el-button class="login-btn-submit" type="primary" @click="dataFormSubmit()" size="mini">登录</el-button>
                         </el-form-item>
                     </el-form>
                 </div>

@@ -1,8 +1,8 @@
 <template>
     <div class="mod-home">
-        <h1>账号管理</h1>
+        <h2>账号管理<el-button type="primary" @click="addUser" size="small" style="float: right">新增账户</el-button></h2>
         <div class="content">
-            <el-button type="primary" @click="addUser">新增账户</el-button>
+
             <el-dialog
                     title="新增账户"
                     :visible="visibleAddUser"
