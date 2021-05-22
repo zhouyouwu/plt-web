@@ -8,6 +8,7 @@ import UserManagement from '../view/common/UserManagement';
 import DisplayKnowledge from '../view/knowledge/k-watch';
 import AddKnowledge from '../view/knowledge/add';
 import cWatch from '../view/chapter/c-watch'
+import Question from '../view/question/q-watch'
 
 Vue.use(VueRouter)
 
@@ -32,6 +33,7 @@ const routes = [
             {path: '/displayKnowledge', component: DisplayKnowledge, name: 'displayKnowledge', meta: {title: '查看知识点'}},
             {path: '/addKnowledge', component: AddKnowledge, name: 'addKnowledge', meta: {title: '添加知识点'}},
             {path: '/cWatch', component: cWatch, name: 'cWatch', meta: {title: '管理章节'}},
+            {path: '/question', component: Question, name: 'question', meta: {title: '管理题目'}},
         ]
     }]
 

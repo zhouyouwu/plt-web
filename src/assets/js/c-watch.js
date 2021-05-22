@@ -122,7 +122,7 @@ export default {
                         typeDescription: this.dataForm.typeDescription,
                         typeName: this.dataForm.typeName,
                         typeLevel: this.dataForm.typeLevel,
-                        linkTypeId: this.dataForm.linkTypeId,
+                        linkTypeId: this.dataForm.linkTypeId.lastItem,
                         linkTypeLevel: this.dataForm.linkTypeLevel
                     }, {
                         headers: {'Content-Type': 'application/json;charset=UTF-8'},
@@ -151,7 +151,7 @@ export default {
                         typeDescription: this.dataForm.typeDescription,
                         typeName: this.dataForm.typeName,
                         typeLevel: this.dataForm.typeLevel,
-                        linkTypeId: this.dataForm.linkTypeId,
+                        linkTypeId: this.dataForm.linkTypeId.lastItem?this.dataForm.linkTypeId.lastItem:this.dataForm.linkTypeId,
                         linkTypeLevel: this.dataForm.linkTypeLevel
                     }, {
                         headers: {'Content-Type': 'application/json;charset=UTF-8'},

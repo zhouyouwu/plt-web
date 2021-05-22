@@ -10,9 +10,7 @@
                 <main class="site-content">
                     <!-- 主入口标签页 e -->
                     <el-card :body-style="siteContentViewHeight">
-                        <keep-alive>
-                            <router-view v-if="!contentIsNeedRefresh"/>
-                        </keep-alive>
+                        <router-view v-if="!contentIsNeedRefresh"/>
                     </el-card>
                 </main>
             </div>

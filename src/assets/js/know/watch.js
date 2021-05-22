@@ -34,7 +34,7 @@ export default {
                 params: {
                     page: this.page,
                     size: 10,
-                    typeId: this.typeId
+                    typeId: this.typeId.lastItem
                 }
             }).then(res => {
                 if (res.status && res.data.code === 0) {
